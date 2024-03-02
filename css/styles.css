@@ -13,6 +13,10 @@ body {
   text-decoration: none;
 }
 
+.colortext {
+  color: #4d5ae5;
+}
+
 .list {
   list-style-type: none;
 }
