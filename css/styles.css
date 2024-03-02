@@ -7,6 +7,8 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  font-size: 18px;
+  color: #2e2f42;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -15,21 +17,56 @@ body {
   list-style-type: none;
 }
 
-.link {
+.list-address {
   list-style-type: none;
+}
+
+.list-address .link {
   text-decoration: none;
+  color: #434455;
+  line-height: 1.5;
+}
+
+.list-address .link:hover,
+.list-address .link:focus {
+  text-decoration: underline;
+}
+
+.list .link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list .link:hover,
+.list .link:focus {
+  text-decoration: underline;
 }
 
 .title-page {
   font-weight: 700;
-  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11111;
 }
 
 .title-text {
   font-weight: 500;
-  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .text {
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
 }
