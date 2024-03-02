@@ -4,8 +4,20 @@ body {
   background-color: #fff;
 }
 
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .list {
   list-style-type: none;
+}
+
+.link {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .title-page {
@@ -13,12 +25,11 @@ body {
   color: #2e2f42;
 }
 
-.portfolio-title {
+.title-text {
   font-weight: 500;
   color: #2e2f42;
 }
 
-.portfolio-text {
-  font-weight: 400;
+.text {
   color: #434455;
 }
